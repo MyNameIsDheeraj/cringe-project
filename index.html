@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feel My Love</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loading" id="loading-screen">
+        <h2>മനുഷൻ പടച്ചതിലെ ഉരുപ്പടിയാന രണ്ടേ വിഷയം, ഒന്ന് നാൻ ഇന്നൊന്നു നീ</h2>
+        <button onclick="playAudio()">Enter</button>
+    </div>
+
+
+    <audio id="myAudio" loop style="display: none;">
+        <source src="Nokku Penne Enne Nokku.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="container" id="main-content">
+        <h2 style="text-align: center; width: 70%; font-weight: 500;">പാതിരാത്രിക്ക് ഉറക്കമില്ലാതെ Code ചെയ്യുമ്പോൾ കൂടെ ഇരിക്കാനും... <br>
+            തൂലാവർഷ രാത്രികളിൽ ഒന്നിച്ചിരുന്ന് # Debug ചെയ്യുവാനും.. എൻ്റെ കോഡിലെ ബഗ്ഗുകളെ ഫീച്ചറുകളാക്കി മാറ്റാനും <br>
+            ഒടുവിലൊരുനാൾ പ്രൊഡക്ഷൻ സെർവർ പൊട്ടുമ്പോൾ നെഞ്ച്‌ തല്ലി കരയാനും എനിക്കൊരു നല്ല കൂട്ട് വേണം...</h2>
+        <div class="button" style="width: 100%;">
+            <button class="yes" onclick="redirectToVideo()">Yes</button>
+            <button class="no" id="movingButton" >No</button>
+        </div>
+        <div class="couple-img"> </div>
+    </div>
+
+
+
+</body>
+
+
+    <script src="script.js"></script>
+
+</html>

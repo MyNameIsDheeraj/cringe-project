@@ -1,0 +1,131 @@
+/* .great-vibes-regular {
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+
+* {
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+body {
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(244, 194, 194); */
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* top: 25vh; */
+    height: 90vh;
+    background-image: url('SL-110521-46540-07.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+
+#main-content {
+    display: none;
+    /* padding: 20px; */
+    text-align: center;
+
+}
+
+
+.container .couple-img {
+    width: 250px;
+    height: 250px;
+    background-image: url('mukesh-lip-bite.gif');
+    background-position: center;
+    background-repeat: unset;
+    background-repeat: unset;
+    background-size: contain;
+    border-radius: 35px;
+    border: 2px solid black;
+}
+
+.container button {
+    margin-bottom: 3vh;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 10%;
+    min-height: 40px ;
+    border: 2px solid black;
+
+}
+
+.container .yes:hover {
+
+    border: 2px solid rgb(0, 255, 0);
+    background-color: rgb(255, 131, 131);
+}
+
+.container .no:hover {
+
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(255, 131, 131);
+}
+
+
+
+.loading button{
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 10%;
+    min-height: 40px ;
+    border: 2px solid black;
+}
+
+.loading button:hover{
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(255, 124, 124);
+    transition: 0.3s ease;
+}
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(244, 194, 194);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.3 s ease-in-out;
+}
+
+/* Hide screen smoothly */
+.hide {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease;
+}
+
+/* Show main content smoothly */
+.show {
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+
+#movingButton {
+    position: absolute;
+    /* padding: 10px 20px; */
+    cursor: pointer;
+}
