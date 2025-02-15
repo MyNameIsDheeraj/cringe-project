@@ -1,9 +1,3 @@
-/* .great-vibes-regular {
-    font-family: "Great Vibes", serif;
-    font-weight: 400;
-    font-style: normal;
-} */
-
 
 * {
 
@@ -15,7 +9,7 @@
 body {
     background-position: center;
     background-size: cover;
-    /* background-color: rgb(244, 194, 194); */
+
 
 }
 
@@ -25,7 +19,6 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    /* top: 25vh; */
     height: 90vh;
     background-image: url('SL-110521-46540-07.jpg');
     background-position: center;
@@ -34,7 +27,6 @@ body {
 
 #main-content {
     display: none;
-    /* padding: 20px; */
     text-align: center;
 
 }
@@ -110,14 +102,12 @@ body {
     transition: opacity 0.3 s ease-in-out;
 }
 
-/* Hide screen smoothly */
 .hide {
     opacity: 0;
     pointer-events: none;
     transition: 0.5s ease;
 }
 
-/* Show main content smoothly */
 .show {
     opacity: 1;
     transition: 0.5s ease;
